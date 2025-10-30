@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=375, initial-scale=1.0">
+  <title>Sign In - 11:235</title>
+  <link rel="stylesheet" href="./common.css">
+  <link rel="stylesheet" href="./sign-in-11-235.css">
+</head>
+<body>
+  <div id="screen-sign-in-11-235" class="screen style-10">
+    <!-- Status Bar -->
+    <div id="status-bar" class="abs" style="left:0px; top:0px; width:375px; height:44px;">
+      <span class="abs" style="left:29.5px; top:12px; width:37px; height:18px;
+            font-family: var(--typo-67-family); font-size: var(--typo-67-size); font-weight: var(--typo-67-weight);
+            line-height: var(--typo-67-line-height); letter-spacing: var(--typo-67-letter-spacing); color: var(--typo-67-color);">19:27</span>
+    </div>
+
+    <!-- Greetings -->
+    <div id="title-group" class="abs" style="left:30px; top:94px; width:155px; height:75px;">
+      <p class="abs hide-text-overflow" style="left:0px; top:0px; width:84px; height:45px;
+         margin:0; font-family: var(--typo-60-family); font-size: var(--typo-60-size); font-weight: var(--typo-60-weight);
+         line-height: var(--typo-60-line-height); letter-spacing: var(--typo-60-letter-spacing); color: var(--typo-60-color);">
+         Hello,</p>
+      <p class="abs hide-text-overflow" style="left:0px; top:45px; width:155px; height:30px;
+         margin:0; font-family: var(--typo-61-family); font-size: var(--typo-61-size); font-weight: var(--typo-61-weight);
+         line-height: var(--typo-61-line-height); letter-spacing: var(--typo-61-letter-spacing); color: var(--typo-61-color);">
+         Welcome Back!</p>
+    </div>
+
+    <!-- Email -->
+    <div id="input-email" class="abs" style="left:30px; top:226px; width:315px; height:81px;">
+      <div class="style-30 abs" style="left:0px; top:26px; width:315px; height:55px;"></div>
+      <label class="abs hide-text-overflow" for="email" style="left:0px; top:0px; width:38px; height:21px;
+        font-family: var(--typo-66-family); font-size: var(--typo-66-size); font-weight: var(--typo-66-weight);
+        line-height: var(--typo-66-line-height); letter-spacing: var(--typo-66-letter-spacing); color: var(--typo-66-color);">
+        Email</label>
+      <input id="email" type="email" placeholder="Enter Email"
+        class="abs input-field"
+        style="left:20px; top:45px; width:275px; height:17px;
+          font-family: var(--typo-65-family); font-size: var(--typo-65-size); font-weight: var(--typo-65-weight);
+          line-height: var(--typo-65-line-height); letter-spacing: var(--typo-65-letter-spacing); color: var(--typo-65-color);
+          background: transparent; border: none; outline: none;">
+    </div>
+
+    <!-- Password -->
+    <div id="input-password" class="abs" style="left:30px; top:337px; width:315px; height:81px;">
+      <div class="style-30 abs" style="left:0px; top:26px; width:315px; height:55px;"></div>
+      <label class="abs hide-text-overflow" for="password" style="left:0px; top:0px; width:107px; height:21px;
+        font-family: var(--typo-66-family); font-size: var(--typo-66-size); font-weight: var(--typo-66-weight);
+        line-height: var(--typo-66-line-height); letter-spacing: var(--typo-66-letter-spacing); color: var(--typo-66-color);">
+        Enter Password</label>
+      <input id="password" type="password" placeholder="Enter Password"
+        class="abs input-field"
+        style="left:20px; top:45px; width:255px; height:17px;
+          font-family: var(--typo-65-family); font-size: var(--typo-65-size); font-weight: var(--typo-65-weight);
+          line-height: var(--typo-65-line-height); letter-spacing: var(--typo-65-letter-spacing); color: var(--typo-65-color);
+          background: transparent; border: none; outline: none;">
+      <button id="toggle-password" class="abs toggle-password" type="button" aria-label="Show password"
+        style="right:10px; top:38px; width:32px; height:32px;">👁️</button>
+    </div>
+
+    <!-- Sign In -->
+    <button id="btn-signin" class="abs style-11" style="left:30px; top:438px; width:315px; height:60px; border:none; cursor:pointer; display:flex; align-items:center; justify-content:center; gap:8px;">
+      <span style="font-family: var(--typo-58-family); font-size: var(--typo-58-size); font-weight: var(--typo-58-weight); line-height: var(--typo-58-line-height); color: var(--typo-58-color);">
+        Sign In
+      </span>
+      <img alt="arrow-right" src="figmaimages/figma_image_30_781.png" style="width:20px; height:20px;" class="icon-img">
+    </button>
+
+    <!-- Divider -->
+    <div id="divider" class="abs" style="left:90px; top:530px; width:195px; height:17px;">
+      <div class="abs" style="left:0px; top:9px; width:50px; height:1px; background-color: var(--color-d9d9d9);"></div>
+      <span class="abs hide-text-overflow" style="left:57px; top:0px; width:81px; height:17px;
+        font-family: var(--typo-64-family); font-size: var(--typo-64-size); font-weight: var(--typo-64-weight);
+        line-height: var(--typo-64-line-height); letter-spacing: var(--typo-64-letter-spacing); color: var(--typo-64-color);">
+        Or Sign in With</span>
+      <div class="abs" style="left:145px; top:9px; width:50px; height:1px; background-color: var(--color-d9d9d9);"></div>
+    </div>
+
+    <!-- Social -->
+    <div id="btn-google" class="abs" style="left:131px; top:567px; width:44px; height:44px;">
+      <div class="style-126 abs" style="left:0; top:0; width:44px; height:44px;"></div>
+      <img alt="google-icon" class="abs icon-img" src="figmaimages/figma_image_22_256.png"
+           style="left:12px; top:12px; width:20px; height:20px;">
+    </div>
+
+    <div id="btn-facebook" class="abs" style="left:200px; top:567px; width:44px; height:44px;">
+      <div class="style-126 abs" style="left:0; top:0; width:44px; height:44px;"></div>
+      <img alt="facebook-glyph" class="abs icon-img" src="figmaimages/figma_image_22_276.png"
+           style="left:12px; top:12px; width:20px; height:20px;">
+    </div>
+
+    <!-- Forgot Password -->
+    <a href="#" id="forgot-password" class="abs"
+       style="left:40px; top:608px; width:97px; height:17px;
+         font-family: var(--typo-62-family); font-size: var(--typo-62-size); font-weight: var(--typo-62-weight);
+         line-height: var(--typo-62-line-height); letter-spacing: var(--typo-62-letter-spacing); color: var(--typo-62-color);
+         text-decoration: none;">
+      Forgot Password?
+    </a>
+
+    <!-- Sign up -->
+    <span class="abs" style="left:99px; top:696px; width:177px; height:17px;
+      font-family: var(--typo-63-family); font-size: var(--typo-63-size); font-weight: var(--typo-63-weight);
+      line-height: var(--typo-63-line-height); letter-spacing: var(--typo-63-letter-spacing); color: var(--typo-63-color);">
+      Don’t have an account? Sign up
+    </span>
+
+    <!-- Home indicator -->
+    <div id="home-indicator" class="abs" style="left:120px; top:783px; width:135px; height:5px; background-color: var(--color-121212); border-radius:100px;"></div>
+  </div>
+
+  <script src="./app.js"></script>
+  <script src="./sign-in-11-235.js"></script>
+</body>
+</html>

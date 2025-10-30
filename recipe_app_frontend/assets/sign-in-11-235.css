@@ -1,0 +1,27 @@
+#screen-sign-in-11-235 .input-field::placeholder {
+  color: var(--color-d9d9d9);
+}
+#screen-sign-in-11-235 #btn-signin:hover {
+  filter: brightness(0.97);
+}
+#screen-sign-in-11-235 #btn-signin:active {
+  transform: translateY(1px);
+}
+#screen-sign-in-11-235 .toggle-password {
+  background: transparent;
+  border: none;
+  color: var(--color-303030);
+  font-size: 14px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0;
+}
+#screen-sign-in-11-235 #btn-google .style-126,
+#screen-sign-in-11-235 #btn-facebook .style-126 {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+#screen-sign-in-11-235 #btn-google:hover .style-126,
+#screen-sign-in-11-235 #btn-facebook:hover .style-126 {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
